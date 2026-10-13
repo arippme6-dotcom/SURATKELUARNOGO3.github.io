@@ -102,20 +102,18 @@ const AppState = {
   }),
 
   pegawai: AppStorage.get("listPegawaiSDN3", [
-    { nama: "SUKIRNO, S.Pd., M.Pd.", nip: "19680415 199303 1 005", gol: "Pembina Tk. I, IV/b", jabatan: "Kepala Sekolah" },
-    { nama: "Budi Santoso, S.Pd.SD", nip: "19870512 201101 1 008", gol: "Penata Muda Tk. I, III/b", jabatan: "Guru PJOK" },
-    { nama: "Siti Aminah, S.Pd.", nip: "19890214 201402 2 003", gol: "Penata Muda, III/a", jabatan: "Guru Kelas / Operator" },
-    { nama: "Sri Wahyuni, S.Pd.SD", nip: "19780820 200801 2 015", gol: "Penata, III/c", jabatan: "Guru Kelas 1" },
-    { nama: "Ahmad Fauzi, S.Pd.I", nip: "19910411 201902 1 004", gol: "Penata Muda, III/a", jabatan: "Guru PAI" }
+    { nama: "Kasmin, S.Pd.,M.M.", nip: "197306242008011016", gol: "Penata Tingkat 1-III/d", jabatan: "Kepala Sekolah" },
+    { nama: "Arif Prasetyo", nip: "-", gol: "-", jabatan: "OPS" },
+    { nama: "Sukijan, S.Pd", nip: "198108102022211009", gol: "IX", jabatan: "Guru Kelas 6" },
   ]),
 
   arsip: AppStorage.get("listArsipSDN3", [
-    { id: "sample_1", tanggal: "12/10/2026", nomor: "66", judul: "Surat Perintah Tugas Pelatihan Kurikulum 2026.pdf", kategori: "Surat Tugas", status: "Tersimpan", isSample: true },
+    { id: "sample_1", tanggal: "12/10/2026", nomor: "66", judul: "Surat Tugas Pelatihan Kurikulum 2026.pdf", kategori: "Surat Tugas", status: "Tersimpan", isSample: true },
     { id: "sample_2", tanggal: "12/10/2026", nomor: "421.1/045/2026", judul: "Surat Keterangan Aktif Siswa M. Rizky.pdf", kategori: "Surat Keterangan", status: "Tersimpan", isSample: true }
   ]),
 
   judulSuratMap: {
-    spt: "SURAT PERINTAH TUGAS",
+    spt: "SURAT TUGAS",
     sk_aktif: "SURAT KETERANGAN AKTIF SEKOLAH",
     undangan: "SURAT UNDANGAN",
     sk_pindah: "SURAT KETERANGAN PINDAH SEKOLAH",

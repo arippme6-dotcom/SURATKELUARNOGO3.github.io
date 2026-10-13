@@ -88,7 +88,7 @@
               <div class="form-group highlighted-group">
                 <label><i class="fa-solid fa-list-check"></i> Pilih Jenis Surat</label>
                 <select id="selectJenisSurat" class="form-input form-select-lg">
-                  <option value="spt">1. Surat Perintah Tugas (SPT)</option>
+                  <option value="spt">1. Surat Tugas (SPT)</option>
                   <option value="sk_aktif">2. Surat Keterangan Aktif Siswa (PIP/Bank)</option>
                   <option value="undangan">3. Surat Undangan Resmi / Wali Murid & Komite</option>
                   <option value="sk_pindah">4. Surat Keterangan Pindah Sekolah (Mutasi)</option>
@@ -124,7 +124,7 @@
                 <h4 class="section-title"><i class="fa-solid fa-clipboard-list"></i> Rincian Penugasan</h4>
                 <div class="form-group">
                   <label>UNTUK (Keperluan Tugas)</label>
-                  <textarea id="inSptUntuk" class="form-input" rows="3">Mengikuti Kegiatan Pelatihan Penguatan Kurikulum dan Asesmen Pembelajaran Sekolah Dasar Tingkat Kecamatan.</textarea>
+                  <textarea id="inSptUntuk" class="form-input" rows="3"></textarea>
                 </div>
 
                 <div class="form-grid-2">
@@ -136,11 +136,6 @@
                     <label>TANGGAL KEMBALI</label>
                     <input type="text" id="inSptTglKembali" class="form-input" value="20 Oktober 2026">
                   </div>
-                </div>
-
-                <div class="form-group">
-                  <label>TUJUAN</label>
-                  <input type="text" id="inSptTujuan" class="form-input" value="Gedung Korwil Bidik Kecamatan">
                 </div>
               </div>
 
@@ -229,7 +224,7 @@
                 </div>
                 <div class="form-group">
                   <label>Alasan Pindah</label>
-                  <input type="text" id="inPindahAlasan" class="form-input" value="Mengikuti domisili dan kepindahan tugas orang tua">
+                  <input type="text" id="inPindahAlasan" class="form-input" value=" domisili dan kepindahan tugas orang tua">
                 </div>
               </div>
 
@@ -290,7 +285,7 @@
                     <h4 id="viewKopBaris1">PEMERINTAH KABUPATEN KEBUMEN</h4>
                     <h4 id="viewKopBaris2">DINAS PENDIDIKAN, KEPEMUDAAN DAN OLAHRAGA</h4>
                     <h3 id="viewKopNamaSekolah">SEKOLAH DASAR NEGERI 3 NOGORAJI</h3>
-                    <p class="address" id="viewKopAlamat">Alamat: Jl. Raya Nogoraji, Kec. Buayan, Kabupaten Kebumen, Jawa Tengah 54474</p>
+                    <p class="address" id="viewKopAlamat">Alamat: Desa Nogoraji, Kec. Buayan, Kabupaten Kebumen, Jawa Tengah 54474</p>
                     <p class="contact" id="viewKopKontak">NPSN: 20305141 | Pos-el: sdn3nogoraji@gmail.com</p>
                   </div>
                 </div>
@@ -298,7 +293,7 @@
 
                 <!-- JUDUL SURAT DINAMIS -->
                 <div class="letter-title">
-                  <h3 id="viewJudulSurat">SURAT PERINTAH TUGAS</h3>
+                  <h3 id="viewJudulSurat">SURAT TUGAS</h3>
                   <p>Nomor : <span id="viewNoSurat">66</span></p>
                 </div>
 
@@ -358,7 +353,7 @@
                     <tr>
                       <td class="col-lbl">UNTUK</td>
                       <td class="col-dot">:</td>
-                      <td class="col-val" id="viewSptUntuk">Mengikuti Kegiatan Pelatihan...</td>
+                      <td class="col-val" id="viewSptUntuk"></td>
                     </tr>
                     <tr>
                       <td class="col-lbl">TANGGAL BERANGKAT</td>
@@ -369,11 +364,6 @@
                       <td class="col-lbl">TANGGAL KEMBALI</td>
                       <td class="col-dot">:</td>
                       <td class="col-val" id="viewSptTglKembali">20 Oktober 2026</td>
-                    </tr>
-                    <tr>
-                      <td class="col-lbl">TUJUAN</td>
-                      <td class="col-dot">:</td>
-                      <td class="col-val" id="viewSptTujuan">Gedung Korwil Bidik Kecamatan</td>
                     </tr>
                   </table>
 
@@ -556,7 +546,7 @@
                       </svg>
                     </div>
 
-                    <strong id="viewNamaTtd">SUKIRNO, S.Pd., M.Pd.</strong>
+                    <strong id="viewNamaTtd">Kasmin, S.Pd.,M.M.</strong>
                     <p class="sig-nip" id="viewNipTtd">NIP. 19680415 199303 1 005</p>
                   </div>
                 </div>
@@ -634,10 +624,10 @@
                 <label>NIP / NUPTK</label>
                 <input type="text" id="newPegNip" class="form-input" placeholder="1234567890123456789">
               </div>
-              <div class="form-group">
-                <label>Pangkat / Golongan</label>
-                <input type="text" id="newPegGol" class="form-input" placeholder="Penata Muda, III/a">
-              </div>
+                <div class="form-group">
+                    <label>Pangkat / Golongan</label>
+                    <input type="text" id="newPegPangkat" class="form-input" placeholder="Contoh: Penata Muda Tk. I, III/b">
+                </div>
               <div class="form-group">
                 <label>Jabatan</label>
                 <input type="text" id="newPegJabatan" class="form-input" placeholder="GURUK KELAS...">
